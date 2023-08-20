@@ -1,4 +1,5 @@
-// calculate function
+//calculate function
+//Solution 1: console.log in the function
 function add (a,b){
     console.log(a+b);
 }
@@ -20,7 +21,7 @@ subtract(10,5);
 multiply(10,5);
 divide(10,5);
 
-//Another way with Return value
+//Solution2: with Return value
 function addTwoNumbers (num1,num2){
     return (num1+num2);
 }
@@ -45,10 +46,10 @@ console.log('result: ' + divideTwoNumbers(10,5));
 
 //inform
 function informationCard(firstName,location,hobby){
-    console.log("Hi, my name is " + firstName + "I live in " + location + "and enjoy "+hobby);
+    console.log("Hi, my name is " + firstName + " I live in " + location + "and enjoy "+hobby);
 
     //another way to get information
-    console.log(`Hi my name is "${firstName} I live in ${location} and enjoy ${hobby}`);
+    console.log(`Hi my name is ${firstName} I live in ${location} and enjoy ${hobby}`);
 }
 
 informationCard("Lak","Chiangrai","Cooking");
